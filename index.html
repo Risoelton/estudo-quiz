@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quiz Study Application - Uma aplicação moderna e de alta performance para estudos gerais e concursos públicos.">
+  <title>AstroQuiz - Plataforma de Estudos</title>
+  <!-- Google Fonts & FontAwesome for icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation HUD -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+        <span class="logo-text">Astro<span>Quiz</span></span>
+      </div>
+
+      <div class="header-actions">
+        <!-- Theme Toggle Switch -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Alternar Tema">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-container">
+
+    <!-- SECTION 1: HOME / CATEGORY SELECTOR SCREEN -->
+    <section id="home-screen" class="view-section active">
+      <div class="hero-banner">
+        <h1 class="hero-title">Domine Seus Estudos</h1>
+        <p class="hero-subtitle">Pratique com questões premium elaboradas para turbinar seu aprendizado em exames gerais e concursos públicos.</p>
+
+        <div class="stats-overview">
+          <div class="stat-card">
+            <span class="stat-value" id="global-total-correct">0</span>
+            <span class="stat-label">Acertos Globais</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="global-total-questions">0</span>
+            <span class="stat-label">Respondidas</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="global-accuracy">0%</span>
+            <span class="stat-label">Precisão Geral</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Categories and Subcategories Grid -->
+      <div class="categories-wrapper">
+        <h2 class="section-title"><i class="fa-solid fa-cubes"></i> Escolha uma Categoria</h2>
+
+        <!-- Estudos Gerais Section -->
+        <div class="category-block">
+          <h3 class="block-title"><i class="fa-solid fa-book-open"></i> Estudos Gerais</h3>
+          <div class="subcategories-grid" id="estudos-gerais-grid">
+            <!-- Dynamic Subcategories loaded from script.js -->
+          </div>
+        </div>
+
+        <!-- Concursos Públicos Section -->
+        <div class="category-block">
+          <h3 class="block-title"><i class="fa-solid fa-gavel"></i> Concursos Públicos</h3>
+          <div class="subcategories-grid" id="concursos-publicos-grid">
+            <!-- Dynamic Subcategories loaded from script.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: INTERACTIVE QUIZ BOARD -->
+    <section id="quiz-screen" class="view-section">
+      <div class="quiz-header-hud">
+        <button id="btn-back-home" class="btn-secondary"><i class="fa-solid fa-arrow-left"></i> Voltar</button>
+        <div class="hud-category-info">
+          <span id="hud-category-main">Estudos Gerais</span>
+          <i class="fa-solid fa-chevron-right"></i>
+          <span id="hud-category-sub">Matemática</span>
+        </div>
+        <div class="hud-score-tracker">
+          <div class="hud-stat">
+            <span class="hud-label">Placar:</span>
+            <span class="hud-val" id="hud-score">0/3</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Progress bar -->
+      <div class="progress-container">
+        <div class="progress-bar" id="quiz-progress-bar" style="width: 0%"></div>
+      </div>
+
+      <div class="quiz-board-card">
+        <!-- Question Indicator & AI Badge -->
+        <div class="quiz-card-meta">
+          <span class="question-index-tag" id="question-index-text">Questão 1 de 3</span>
+          <span class="ai-generated-tag" id="ai-badge" style="display: none;"><i class="fa-solid fa-wand-magic-sparkles"></i> Gerada por IA (Gemini)</span>
+        </div>
+
+        <h2 class="question-text" id="question-text">Texto da questão premium aqui...</h2>
+
+        <!-- Options Container -->
+        <div class="options-container" id="options-container">
+          <!-- Dynamic Buttons loaded via script.js -->
+        </div>
+
+        <!-- Explanation Box (revealed after option selection) -->
+        <div class="explanation-box" id="explanation-box">
+          <div class="explanation-header">
+            <span class="explanation-icon"><i class="fa-solid fa-circle-info"></i></span>
+            <h4>Explicação do Examinador</h4>
+          </div>
+          <p class="explanation-text" id="explanation-text">Explicação detalhada sobre a resposta correta aqui...</p>
+        </div>
+
+        <!-- Action Panel -->
+        <div class="quiz-actions">
+          <button id="btn-next" class="btn-primary" disabled>
+            Próxima Questão <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- AI Prompt Box / Refill Status Indicator -->
+      <div class="ai-refill-panel" id="ai-refill-panel">
+        <div class="ai-refill-header">
+          <i class="fa-solid fa-bolt-lightning"></i>
+          <span>Gerador Inteligente Gemini</span>
+        </div>
+        <p class="ai-refill-desc">
+          Se restarem menos de 5 questões sem responder nesta categoria, a API do Gemini será acionada automaticamente em segundo plano para gerar 5 novas questões ultra-precisas seguindo uma estrutura JSON rígida de examinador universitário.
+        </p>
+        <div class="ai-status" id="ai-status-indicator">
+          <span class="status-dot"></span>
+          <span id="ai-status-text">Gemini ocioso e monitorando estoque...</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: FINAL TEST RESULT PANEL -->
+    <section id="results-screen" class="view-section">
+      <div class="results-card">
+        <div class="results-badge-wrapper" id="results-badge-container">
+          <!-- Dynamically generated custom badges -->
+        </div>
+
+        <h2 class="results-title">Desempenho Concluído!</h2>
+        <p class="results-subtitle" id="results-category-info">Categoria: Estudos Gerais - Matemática</p>
+
+        <!-- Main Score HUD -->
+        <div class="results-stats-row">
+          <div class="results-stat-box">
+            <span class="results-stat-val" id="res-score-hits">0</span>
+            <span class="results-stat-lbl">Acertos</span>
+          </div>
+          <div class="results-stat-box">
+            <span class="results-stat-val" id="res-score-total">0</span>
+            <span class="results-stat-lbl">Questões</span>
+          </div>
+          <div class="results-stat-box">
+            <span class="results-stat-val" id="res-score-percentage">0%</span>
+            <span class="results-stat-lbl">Precisão</span>
+          </div>
+        </div>
+
+        <!-- Action buttons -->
+        <div class="results-action-buttons">
+          <button id="btn-restart-quiz" class="btn-primary"><i class="fa-solid fa-rotate-left"></i> Refazer Quiz</button>
+          <button id="btn-results-home" class="btn-secondary"><i class="fa-solid fa-house"></i> Voltar ao Menu</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 AstroQuiz Study Sytem. Desenvolvido com foco em alta performance.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
