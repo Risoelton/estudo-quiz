@@ -1,0 +1,216 @@
+{
+  "Estudos Gerais": {
+    "Matemática": [
+      {
+        "question": "Qual é a raiz quadrada da soma dos quadrados dos catetos de um triângulo retângulo cujas medidas são 6 cm e 8 cm?",
+        "options": [
+          "10 cm",
+          "14 cm",
+          "12 cm",
+          "48 cm"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Pelo Teorema de Pitágoras, a hipotenusa ao quadrado é igual à soma dos quadrados dos catetos: h² = 6² + 8² = 36 + 64 = 100. Portanto, h = √100 = 10 cm."
+      },
+      {
+        "question": "Se a função f(x) = ax + b passa pelos pontos (0, 3) e (2, 7), qual é o valor de f(5)?",
+        "options": [
+          "11",
+          "13",
+          "15",
+          "17"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A função é f(x) = ax + b. Como passa por (0,3), temos f(0) = b = 3. Como passa por (2,7), temos f(2) = 2a + 3 = 7, logo a = 2. Assim, f(x) = 2x + 3. Para f(5), temos f(5) = 2(5) + 3 = 13."
+      },
+      {
+        "question": "Uma pessoa investiu R$ 1.000,00 sob regime de juros compostos a uma taxa de 10% ao ano. Qual será o montante acumulado após 2 anos?",
+        "options": [
+          "R$ 1.200,00",
+          "R$ 1.210,00",
+          "R$ 1.100,00",
+          "R$ 1.250,00"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "No regime de juros compostos, a fórmula é M = C * (1 + i)^t. M = 1000 * (1.10)² = 1000 * 1.21 = R$ 1.210,00."
+      }
+    ],
+    "Ciências": [
+      {
+        "question": "Qual das seguintes alternativas descreve corretamente o processo de fotossíntese realizado pelas plantas?",
+        "options": [
+          "Consumo de oxigênio e glicose para produzir dióxido de carbono e energia.",
+          "Transformação de dióxido de carbono e água em glicose e oxigênio na presença de luz.",
+          "Absorção de nitrogênio atmosférico para produzir proteínas vegetais na ausência de luz.",
+          "Quebra de moléculas de água para liberação exclusiva de dióxido de carbono."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A fotossíntese ocorre nos cloroplastos, onde o gás carbônico (CO2) e a água (H2O) são convertidos em glicose (C6H12O6) e oxigênio (O2) utilizando a energia luminosa."
+      },
+      {
+        "question": "O que define um elemento químico de acordo com a tabela periódica moderna?",
+        "options": [
+          "O número de nêutrons no núcleo de seus átomos.",
+          "A soma das massas de prótons e elétrons.",
+          "O número atômico (quantidade de prótons) em seus átomos.",
+          "A quantidade de elétrons em sua camada de valência."
+        ],
+        "correct_answer_index": 2,
+        "explanation": "O número atômico (representado pela letra Z) é a quantidade de prótons no núcleo de um átomo e define de forma única a identidade de um elemento químico."
+      },
+      {
+        "question": "Qual é a principal função dos glóbulos vermelhos (hemácias) no sistema circulatório humano?",
+        "options": [
+          "Combater patógenos e infecções no sangue.",
+          "Transportar oxigênio dos pulmões para os tecidos do corpo.",
+          "Atuar na coagulação sanguínea para evitar hemorragias.",
+          "Produzir anticorpos específicos para a imunidade humoral."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "As hemácias contêm hemoglobina, uma proteína rica em ferro que se liga ao oxigênio nos pulmões e o transporta para todas as células do corpo."
+      }
+    ],
+    "Português": [
+      {
+        "question": "Assinale a frase que apresenta um desvio de concordância verbal.",
+        "options": [
+          "Fazem cinco anos que não visito minha cidade natal.",
+          "Havia muitos problemas para resolvermos na reunião.",
+          "Choveu muito durante a noite inteira.",
+          "Mais de um aluno se retirou da sala de aula."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O verbo 'fazer', quando indica tempo decorrido, é impessoal e deve permanecer na 3ª pessoa do singular: 'Faz cinco anos que não visito minha cidade natal'."
+      },
+      {
+        "question": "Identifique a frase em que o uso do acento indicativo de crase é obrigatório.",
+        "options": [
+          "Entreguei o relatório a ela.",
+          "Fomos a pé para o trabalho.",
+          "O aluno entregou o projeto à professora ontem.",
+          "Ele viajou a uma cidade distante."
+        ],
+        "correct_answer_index": 2,
+        "explanation": "Ocorre a crase pela fusão da preposição 'a' (exigida pelo verbo 'entregar') com o artigo definido feminino 'a' que precede o substantivo 'professora'."
+      },
+      {
+        "question": "Assinale a alternativa em que a regência verbal está de acordo com a norma-padrão da Língua Portuguesa.",
+        "options": [
+          "O candidato visava o cargo com determinação.",
+          "Nós assistimos o filme que foi indicado ontem.",
+          "Prefiro estudar mais do que ficar sem fazer nada.",
+          "A médica assistiu o paciente com presteza e dedicação."
+        ],
+        "correct_answer_index": 3,
+        "explanation": "O verbo 'assistir' no sentido de prestar assistência/ajudar é transitivo direto, portanto 'assistiu o paciente' está correto de acordo com a norma-padrão."
+      }
+    ]
+  },
+  "Concursos Públicos": {
+    "Direito Administrativo": [
+      {
+        "question": "Qual princípio constitucional da Administração Pública impede que agentes públicos utilizem propagandas oficiais para promoção pessoal?",
+        "options": [
+          "Princípio da Legalidade",
+          "Princípio da Impessoalidade",
+          "Princípio da Moralidade",
+          "Princípio da Eficiência"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "O Princípio da Impessoalidade determina que a atuação da Administração deve visar ao interesse público, proibindo a promoção pessoal de agentes públicos em atos, programas, obras, serviços e campanhas de órgãos públicos."
+      },
+      {
+        "question": "A revogação de um ato administrativo fundamenta-se em qual dos seguintes critérios?",
+        "options": [
+          "Ilegalidade originária ou superveniente do ato.",
+          "Conveniência e oportunidade para o interesse público.",
+          "Falta de competência do agente que o praticou.",
+          "Vício insanável de forma ou de objeto."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A revogação é o desfazimento de um ato administrativo legítimo por razões de conveniência e oportunidade, com efeitos ex nunc (não retroativos). Atos ilegais são anulados."
+      },
+      {
+        "question": "O poder da Administração Pública que permite punir as infrações funcionais de seus servidores é classificado como:",
+        "options": [
+          "Poder Regulamentar",
+          "Poder de Polícia",
+          "Poder Disciplinar",
+          "Poder Hierárquico"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "O Poder Disciplinar é a prerrogativa que a Administração Pública possui para apurar infrações e aplicar penalidades aos servidores públicos e demais pessoas sujeitas à disciplina interna da Administração."
+      }
+    ],
+    "Direito Constitucional": [
+      {
+        "question": "Segundo a Constituição Federal de 1988, qual remédio constitucional é cabível para garantir o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais?",
+        "options": [
+          "Habeas Corpus",
+          "Mandado de Segurança",
+          "Habeas Data",
+          "Ação Popular"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "O Habeas Data (Art. 5º, LXXII, 'a' da CF/88) destina-se a assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público."
+      },
+      {
+        "question": "Os direitos e garantias fundamentais previstos na Constituição de 1988:",
+        "options": [
+          "Constituem rol taxativo, sem possibilidade de ampliação por tratados internacionais.",
+          "Podem ser suprimidos por emenda constitucional se houver aprovação unânime.",
+          "Constituem cláusulas pétreas e não podem ser abolidos.",
+          "Aplicam-se exclusivamente aos cidadãos brasileiros natos."
+        ],
+        "correct_answer_index": 2,
+        "explanation": "Conforme o Art. 60, § 4º, IV, da CF/88, os direitos e garantias individuais constituem cláusula pétrea, não podendo ser objeto de deliberação proposta de emenda tendente a aboli-los."
+      },
+      {
+        "question": "Quem possui a iniciativa para propor Emenda à Constituição Federal (PEC), nos termos do artigo 60 da CF/88?",
+        "options": [
+          "Qualquer cidadão brasileiro no gozo de seus direitos políticos.",
+          "Um terço, no mínimo, dos membros da Câmara dos Deputados ou do Senado Federal.",
+          "Exclusivamente o Presidente da República.",
+          "Apenas o Presidente do Supremo Tribunal Federal."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A Constituição pode ser emendada mediante proposta de, no mínimo, um terço dos membros da Câmara dos Deputados ou do Senado Federal, do Presidente da República, ou de mais da metade das Assembleias Legislativas das unidades da Federação."
+      }
+    ],
+    "Raciocínio Lógico/RLM": [
+      {
+        "question": "Considerando a proposição composta: 'Se estudo, então passo no concurso'. Qual é a sua negação lógica equivalente?",
+        "options": [
+          "Se não estudo, então não passo no concurso.",
+          "Não estudo ou não passo no concurso.",
+          "Estudo e não passo no concurso.",
+          "Se passo no concurso, então estudo."
+        ],
+        "correct_answer_index": 2,
+        "explanation": "A negação de uma condicional (p -> q) é dada pela equivalência ~(p -> q) ≡ p ∧ ~q. Portanto, mantemos a primeira ('Estudo') e negamos a segunda ('e não passo no concurso')."
+      },
+      {
+        "question": "Uma proposição logicamente equivalente à condicional 'Se chove, a rua fica molhada' é:",
+        "options": [
+          "Se a rua não está molhada, não choveu.",
+          "Se a rua está molhada, choveu.",
+          "Não chove e a rua não fica molhada.",
+          "Chove ou a rua não fica molhada."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A equivalência da condicional (p -> q) pela contrapositiva é (~q -> ~p). Assim, 'Se chove, a rua fica molhada' equivale a 'Se a rua não está molhada, não choveu'."
+      },
+      {
+        "question": "Se todos os cachorros são mamíferos e todos os mamíferos são vertebrados, então:",
+        "options": [
+          "Todos os vertebrados são cachorros.",
+          "Alguns cachorros não são vertebrados.",
+          "Todos os cachorros são vertebrados.",
+          "Nenhum vertebrado é cachorro."
+        ],
+        "correct_answer_index": 2,
+        "explanation": "Por silogismo hipotético, se a classe dos cachorros está contida na classe dos mamíferos, e esta última na dos vertebrados, então a classe dos cachorros está totalmente contida na dos vertebrados."
+      }
+    ]
+  }
+}
