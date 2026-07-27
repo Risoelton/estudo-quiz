@@ -77,6 +77,94 @@
         ],
         "correct_answer_index": 2,
         "explanation": "O dado tem três números pares (2, 4 e 6). Logo, a probabilidade é 3/6 = 1/2."
+      },
+      {
+        "question": "Em uma progressão aritmética (PA) cujo primeiro termo (a1) é 5 e a razão (r) é 4, qual é o valor do décimo termo (a10)?",
+        "options": [
+          "36",
+          "41",
+          "45",
+          "49"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A fórmula do termo geral de uma PA é an = a1 + (n - 1) * r. Para a10, temos a10 = 5 + (10 - 1) * 4 = 5 + 9 * 4 = 5 + 36 = 41."
+      },
+      {
+        "question": "Qual é a solução da equação de segundo grau x² - 5x + 6 = 0?",
+        "options": [
+          "x = 1 e x = 6",
+          "x = 2 e x = 3",
+          "x = -2 e x = -3",
+          "x = 0 e x = 5"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "Pela fórmula de Bhaskara ou por soma e produto: a soma das raízes é -b/a = 5 e o produto é c/a = 6. Os números que somam 5 e multiplicam 6 são 2 e 3."
+      },
+      {
+        "question": "Determine o valor do logaritmo log₂ (64) + log₃ (27).",
+        "options": [
+          "6",
+          "8",
+          "9",
+          "12"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "Como 2^6 = 64, log₂ (64) = 6. Como 3^3 = 27, log₃ (27) = 3. A soma é 6 + 3 = 9."
+      },
+      {
+        "question": "Uma urna contém 5 bolas vermelhas e 3 bolas azuis. Se duas bolas forem retiradas sucessivamente e sem reposição, qual é a probabilidade de ambas serem vermelhas?",
+        "options": [
+          "5/14",
+          "25/64",
+          "15/56",
+          "5/8"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A probabilidade de a primeira ser vermelha é 5/8. Sem reposição, restam 7 bolas no total e 4 vermelhas. A probabilidade de a segunda ser vermelha é 4/7. A probabilidade conjunta é (5/8) * (4/7) = 20/56 = 5/14."
+      },
+      {
+        "question": "Se sen(x) = 3/5 e x está no primeiro quadrante, qual é o valor de cos(x)?",
+        "options": [
+          "1/5",
+          "2/5",
+          "4/5",
+          "3/4"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "Pela relação fundamental da trigonometria, sen²(x) + cos²(x) = 1. Assim, (3/5)² + cos²(x) = 1 => 9/25 + cos²(x) = 1 => cos²(x) = 16/25. Como x está no primeiro quadrante, cos(x) = 4/5."
+      },
+      {
+        "question": "Um capital de R$ 500,00 foi aplicado a juros simples com taxa de 2% ao mês durante 5 meses. Qual é o valor dos juros obtidos ao final desse período?",
+        "options": [
+          "R$ 50,00",
+          "R$ 100,00",
+          "R$ 550,00",
+          "R$ 600,00"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "No regime de juros simples, a fórmula é J = C * i * t. Portanto, J = 500 * 0,02 * 5 = R$ 50,00."
+      },
+      {
+        "question": "Determine a soma dos ângulos internos de um polígono regular de 6 lados (hexágono).",
+        "options": [
+          "360°",
+          "540°",
+          "720°",
+          "900°"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "A soma dos ângulos internos de um polígono é dada por S = (n - 2) * 180°. Para um hexágono (n = 6), temos S = (6 - 2) * 180° = 4 * 180° = 720°."
+      },
+      {
+        "question": "Se a matriz A é de ordem 2x2 e seu determinante é 5, qual é o determinante da matriz 3A?",
+        "options": [
+          "15",
+          "45",
+          "30",
+          "5"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "Pelas propriedades dos determinantes, se A é uma matriz de ordem n, det(k*A) = kⁿ * det(A). Neste caso, det(3A) = 3² * det(A) = 9 * 5 = 45."
       }
     ],
     "Ciências": [
@@ -156,6 +244,94 @@
         ],
         "correct_answer_index": 1,
         "explanation": "A unidade de força no SI é o Newton (N), equivalente a kg·m/s²."
+      },
+      {
+        "question": "Qual teoria evolutiva afirma que os organismos mais adaptados ao ambiente têm maiores chances de sobreviver e se reproduzir, transmitindo suas características às próximas gerações?",
+        "options": [
+          "Lamarckismo",
+          "Fixismo",
+          "Criacionismo",
+          "Darwinismo (Seleção Natural)"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "O Darwinismo, formulado por Charles Darwin, propõe a seleção natural como o mecanismo evolutivo no qual indivíduos mais aptos sobrevivem e geram mais descendentes."
+      },
+      {
+        "question": "Durante a mitose, em qual fase os cromossomos homólogos se alinham no plano equatorial da célula?",
+        "options": [
+          "Prófase",
+          "Metáfase",
+          "Anáfase",
+          "Telófase"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "Na metáfase, os cromossomos atingem seu grau máximo de condensação e se alinham na placa equatorial da célula, facilitando a posterior separação."
+      },
+      {
+        "question": "Qual das seguintes reações químicas representa um processo endotérmico?",
+        "options": [
+          "Combustão do gás de cozinha.",
+          "Fotossíntese das plantas.",
+          "Respiração celular.",
+          "Reação de neutralização ácido-base."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "Processos endotérmicos absorvem energia do meio. A fotossíntese necessita de energia luminosa para converter dióxido de carbono e água em glicose e oxigênio."
+      },
+      {
+        "question": "Segundo a Primeira Lei de Newton (Lei da Inércia), o que acontece com um corpo que não está sujeito a nenhuma força resultante externa?",
+        "options": [
+          "Ele entra em repouso imediato.",
+          "Ele se move com velocidade constantemente acelerada.",
+          "Ele permanece em seu estado de repouso ou de movimento retilíneo uniforme.",
+          "Ele descreve um movimento circular uniforme devido à inércia."
+        ],
+        "correct_answer_index": 2,
+        "explanation": "A Lei da Inércia afirma que um corpo livre de forças resultantes externas mantém seu estado de repouso ou continua em movimento retilíneo uniforme (velocidade constante em linha reta)."
+      },
+      {
+        "question": "Qual camada da atmosfera terrestre é responsável por filtrar a maior parte da radiação ultravioleta (UV) nociva emitida pelo Sol?",
+        "options": [
+          "Troposfera",
+          "Termosfera",
+          "Estratosfera (Camada de Ozônio)",
+          "Mesosfera"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "A camada de ozônio (O3) está localizada na estratosfera (aproximadamente entre 15 e 35 km de altitude) e absorve cerca de 97% a 99% da radiação ultravioleta de alta frequência do Sol."
+      },
+      {
+        "question": "Qual organela celular é responsável pela produção de energia (ATP) por meio da respiração celular aeróbica?",
+        "options": [
+          "Lisossomo",
+          "Ribossomo",
+          "Complexo de Golgi",
+          "Mitocôndria"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "As mitocôndrias são as usinas energéticas das células eucarióticas, responsáveis pela produção de ATP através do ciclo de Krebs e da cadeia respiratória."
+      },
+      {
+        "question": "Qual é o principal gás responsável pelo efeito estufa natural da Terra que é amplamente emitido pelas atividades humanas relacionadas à queima de combustíveis fósseis?",
+        "options": [
+          "Dióxido de carbono (CO₂)",
+          "Monóxido de carbono (CO)",
+          "Dióxido de enxofre (SO₂)",
+          "Oxigênio (O₂)"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Embora o vapor de água seja o principal gás estufa natural, o dióxido de carbono (CO2) é o gás de origem antrópica que mais contribui para o aquecimento global devido à queima maciça de carvão, petróleo e gás natural."
+      },
+      {
+        "question": "O que ocorre na ligação química covalente entre dois átomos?",
+        "options": [
+          "Transferência definitiva de elétrons de um átomo para outro.",
+          "Compartilhamento de pares de elétrons entre os átomos.",
+          "Atração eletrostática entre cátions e ânions metálicos.",
+          "Interação livre entre elétrons deslocalizados em uma nuvem eletrônica."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A ligação covalente caracteriza-se pelo compartilhamento de elétrons de valência entre átomos (geralmente ametais) para que ambos alcancem a estabilidade eletrônica."
       }
     ],
     "Português": [
@@ -235,6 +411,94 @@
         ],
         "correct_answer_index": 0,
         "explanation": "A hipérbole é o exagero intencional, como 'morrendo de fome'."
+      },
+      {
+        "question": "Assinale a alternativa que apresenta o uso correto dos pronomes relativos de acordo com a norma-padrão.",
+        "options": [
+          "Este é o livro onde o autor descreve suas viagens.",
+          "A casa cujo o telhado desabou será reformada.",
+          "A lei a que o deputado fez referência foi aprovada.",
+          "As pessoas que eu mais confio moram aqui."
+        ],
+        "correct_answer_index": 2,
+        "explanation": "Quem faz referência faz referência a algo. Portanto, rege-se com a preposição 'a': 'a que fez referência'. A palavra 'onde' só deve ser usada para lugares físicos. O pronome 'cujo' não aceita artigo pós-posto ('cujo o' está incorreto). Quem confia, confia 'em' alguém."
+      },
+      {
+        "question": "Na frase 'Compraram-se novos computadores para o escritório', a partícula 'se' exerce a função de:",
+        "options": [
+          "Pronome reflexivo",
+          "Índice de indeterminação do sujeito",
+          "Partícula apassivadora",
+          "Conjunção subordinada integrante"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "O verbo 'comprar' é transitivo direto. Na estrutura 'Compraram-se novos computadores', temos uma voz passiva sintética equivalente a 'Novos computadores foram comprados'. Assim, a partícula 'se' funciona como pronome apassivador."
+      },
+      {
+        "question": "Qual das seguintes alternativas apresenta um desvio de regência nominal?",
+        "options": [
+          "Ele é muito atencioso com os idosos.",
+          "Ela é bacharel de Direito pela faculdade federal.",
+          "O jovem é ávido por novas experiências.",
+          "Todos estavam ansiosos para saber o resultado."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "De acordo com a regência nominal padrão, quem é bacharel é bacharel 'em' alguma disciplina ou área de conhecimento, e não 'de'. O correto seria 'bacharel em Direito'."
+      },
+      {
+        "question": "Assinale a alternativa em que a palavra destacada foi acentuada pela mesma regra gramatical que determina o acento em 'história'.",
+        "options": [
+          "saúde",
+          "café",
+          "língua",
+          "árvore"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "A palavra 'história' é acentuada por ser uma paroxítona terminada em ditongo crescente. A palavra 'língua' segue exatamente a mesma regra (paroxítona terminada em ditongo)."
+      },
+      {
+        "question": "No trecho 'Se você vier amanhã, resolveremos a pendência', a conjunção 'se' introduz uma oração subordinada adverbial:",
+        "options": [
+          "Concessiva",
+          "Causal",
+          "Condicional",
+          "Temporal"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "A conjunção 'se' expressa uma condição necessária para a realização da ação da oração principal. Logo, trata-se de uma oração subordinada adverbial condicional."
+      },
+      {
+        "question": "Identifique a frase em que o termo sublinhado exerce a função de complemento nominal.",
+        "options": [
+          "O povo tinha necessidade de alimentos.",
+          "Ele gosta de chocolate amargo.",
+          "A decisão do juiz agradou a todos.",
+          "O vento derrubou as folhas das árvores."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "'De alimentos' completa o sentido do substantivo abstrato 'necessidade'. Por se ligar a um substantivo abstrato com valor passivo/alvo, atua como complemento nominal."
+      },
+      {
+        "question": "Assinale a alternativa que apresenta uma figura de linguagem caracterizada pela suavização de uma ideia desagradável ou chocante.",
+        "options": [
+          "Metonímia",
+          "Eufemismo",
+          "Antítese",
+          "Pleonasmo"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "O eufemismo é a figura de pensamento utilizada para abrandar uma expressão que possa ser considerada rude, triste ou chocante (por exemplo, dizer 'ele partiu desta para melhor' em vez de 'ele faleceu')."
+      },
+      {
+        "question": "Qual a classificação correta do sujeito na frase: 'Anunciaram as novas vagas no mural do colégio'?",
+        "options": [
+          "Sujeito Oculto (ou Elíptico)",
+          "Sujeito Simples",
+          "Sujeito Indeterminado",
+          "Oração sem Sujeito"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "Quando o verbo está na 3ª pessoa do plural e não se refere a nenhum termo expresso anteriormente no texto ou identificável pelo contexto, o sujeito é classificado como indeterminado."
       }
     ]
   },
@@ -294,6 +558,83 @@
         ],
         "correct_answer_index": 0,
         "explanation": "O poder hierárquico permite organizar e distribuir funções entre órgãos e agentes da Administração."
+      },
+      {
+        "question": "Qual das seguintes alternativas apresenta uma modalidade de licitação prevista expressamente na Lei nº 14.133/2021 (Nova Lei de Licitações)?",
+        "options": [
+          "Tomada de Preços",
+          "Convite",
+          "Diálogo Competitivo",
+          "RDC (Regime Diferenciado de Contratações)"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "A Nova Lei de Licitações e Contratos Administrativos (Lei nº 14.133/2021) extinguiu as modalidades Convite e Tomada de Preços, e introduziu a modalidade 'Diálogo Competitivo' no ordenamento brasileiro."
+      },
+      {
+        "question": "A encampação é uma forma de extinção da concessão de serviço público que se caracteriza por:",
+        "options": [
+          "Retomada do serviço pelo poder concedente durante o prazo da concessão, por motivo de interesse público, mediante lei autorizativa específica e indenização prévia.",
+          "Extinção do contrato por inadimplemento culposo da concessionária, declarada por decreto do poder concedente.",
+          "Extinção do contrato de concessão em virtude do término do prazo estabelecido na avença.",
+          "Desfazimento do negócio jurídico por ilegalidade insanável identificada no procedimento licitatório primário."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "De acordo com a Lei nº 8.987/1995, a encampação é a retomada do serviço pelo poder concedente durante o prazo da concessão, por motivo de interesse público, dependente de lei autorizativa específica e após o pagamento de indenização prévia."
+      },
+      {
+        "question": "No tocante à responsabilidade civil do Estado no ordenamento brasileiro (Art. 37, § 6º da CF/88), adota-se como regra geral a teoria do:",
+        "options": [
+          "Risco Integral, que não admite nenhuma causa excludente de responsabilidade.",
+          "Risco Administrativo, sob a modalidade de responsabilidade objetiva.",
+          "Culpa Administrativa ou Culpa do Serviço, sob a modalidade subjetiva.",
+          "Risco Criado, aplicável exclusivamente em relações de consumo."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A CF/88 consagra a responsabilidade civil objetiva do Estado com base na Teoria do Risco Administrativo. Esta teoria exige nexo de causalidade e dano, mas admite causas excludentes de responsabilidade (como culpa exclusiva da vítima, caso fortuito ou força maior)."
+      },
+      {
+        "question": "Qual dos seguintes atributos do ato administrativo confere à Administração Pública a prerrogativa de impor obrigações unilaterais aos administrados independentemente de prévia concordância destes?",
+        "options": [
+          "Tipicidade",
+          "Autoexecutabilidade",
+          "Imperatividade",
+          "Presunção de Legitimidade"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "A imperatividade é o atributo pelo qual os atos administrativos se impõem a terceiros, criando obrigações unilaterais, independentemente de sua concordância."
+      },
+      {
+        "question": "A competência para a edição de decretos e regulamentos para a fiel execução das leis é uma manifestação direta do:",
+        "options": [
+          "Poder Regulamentar ou Executivo",
+          "Poder de Polícia",
+          "Poder Hierárquico",
+          "Poder Disciplinar"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Poder Regulamentar é a prerrogativa conferida aos chefes do Poder Executivo para editar atos administrativos gerais e abstratos (como decretos regulamentares), visando dar fiel execução a uma lei existente."
+      },
+      {
+        "question": "No âmbito dos princípios administrativos implícitos ou reconhecidos pela jurisprudência, qual princípio veda que a Administração Pública adote comportamentos contraditórios que violem a legítima expectativa criada no cidadão?",
+        "options": [
+          "Princípio da Autotutela",
+          "Princípio da Proteção à Confiança Legítima",
+          "Princípio da Continuidade dos Serviços Públicos",
+          "Princípio da Especialidade"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "O princípio da proteção à confiança legítima (vertente subjetiva da segurança jurídica) veda que a Administração frustre expectativas legítimas geradas nos administrados por meio de condutas anteriores do próprio Estado."
+      },
+      {
+        "question": "Qual das seguintes entidades integra a Administração Pública Indireta e é dotada de personalidade jurídica de direito privado, criada mediante autorização legislativa?",
+        "options": [
+          "Autarquia",
+          "Sociedade de Economia Mista",
+          "Ministério da Educação",
+          "Secretaria Estadual de Saúde"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "As autarquias possuem personalidade jurídica de direito público e são criadas diretamente por lei. Já as Sociedades de Economia Mista e Empresas Públicas possuem personalidade jurídica de direito privado e sua criação é autorizada por lei."
       }
     ],
     "Direito Constitucional": [
@@ -328,7 +669,7 @@
           "Apenas o Presidente do Supremo Tribunal Federal."
         ],
         "correct_answer_index": 1,
-        "explanation": "A Constituição pode ser emendada mediante proposta de, no mínimo, um terço dos membros da Câmara dos Deputados ou do Senado Federal, do Presidente da República, ou de mais da metade das Assembleias Legislativas das unidades da Federação."
+        "explanation": "A Constituição pode ser emendada mediante proposta de, no mínimo, um terço dos membros da Câmara dos Deputados ou do Senado Federal, do Presidente da República, ou de mais da metade das Assembleias Legislativas."
       },
       {
         "question": "Qual é o artigo da Constituição que trata do direito ao meio ambiente ecologicamente equilibrado?",
@@ -351,6 +692,83 @@
         ],
         "correct_answer_index": 0,
         "explanation": "O Artigo 5º, XVII, da Constituição Federal assegura a liberdade de associação para fins lícitos."
+      },
+      {
+        "question": "Compete privativamente a qual órgão processar e julgar o Presidente da República nos crimes de responsabilidade, após a admissão da acusação por dois terços da Câmara dos Deputados?",
+        "options": [
+          "Supremo Tribunal Federal (STF)",
+          "Senado Federal",
+          "Superior Tribunal de Justiça (STJ)",
+          "Congresso Nacional em sessão conjunta"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "De acordo com o Art. 52, I, da CF/88, compete privativamente ao Senado Federal processar e julgar o Presidente e o Vice-Presidente da República nos crimes de responsabilidade."
+      },
+      {
+        "question": "Qual é a classificação da Constituição da República Federativa do Brasil de 1988 quanto à sua estabilidade ou mutabilidade?",
+        "options": [
+          "Flexível, pois pode ser alterada por procedimento legislativo ordinário.",
+          "Semirrígida, por conter partes flexíveis e partes que exigem processo solene.",
+          "Rígida, pois exige um processo de alteração muito mais solene e complexo do que o de elaboração das leis ordinárias.",
+          "Imutável, sendo vedada qualquer alteração em seu texto originário."
+        ],
+        "correct_answer_index": 2,
+        "explanation": "A doutrina constitucionalista majoritária classifica a CF/88 como rígida, pois ela exige quórum qualificado (3/5 em dois turnos em cada casa do Congresso) para aprovação de Emendas Constitucionais."
+      },
+      {
+        "question": "Conforme o artigo 5º da CF/88, a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o período:",
+        "options": [
+          "Noturno, por determinação judicial.",
+          "Diurno, por determinação de autoridade policial.",
+          "Diurno, por determinação judicial.",
+          "Qualquer horário, mediante mandado de busca e apreensão expedido por juiz competente."
+        ],
+        "correct_answer_index": 2,
+        "explanation": "O mandado judicial para ingresso em domicílio sem o consentimento do morador só pode ser cumprido durante o dia ('durante o dia, por determinação judicial'). As exceções que permitem entrada a qualquer hora são flagrante delito, desastre ou prestação de socorro."
+      },
+      {
+        "question": "Qual é a idade mínima constitucionalmente exigida para que um cidadão possa se candidatar ao cargo de Senador da República no Brasil?",
+        "options": [
+          "18 anos",
+          "21 anos",
+          "30 anos",
+          "35 anos"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "De acordo com o Art. 14, § 3º, VI, 'a' da CF/88, a elegibilidade para Senador exige a idade mínima de 35 anos (assim como para o cargo de Presidente e Vice-Presidente)."
+      },
+      {
+        "question": "A soberania popular será exercida pelo sufrágio universal e pelo voto direto e secreto, com valor igual para todos, e, nos termos da lei, mediante:",
+        "options": [
+          "Plebiscito, referendo e iniciativa popular.",
+          "Consulta pública ordinária, direito de petição e habeas corpus.",
+          "Sufrágio sensitivo, audiências públicas e recall.",
+          "Apenas por meio da escolha periódica de representantes nas urnas eletrônicas."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Conforme o Art. 14, incisos I, II e III da CF/88, os instrumentos de exercício direto da soberania popular são o plebiscito, o referendo e a iniciativa popular."
+      },
+      {
+        "question": "No sistema brasileiro de controle de constitucionalidade, qual ação é cabível para combater a inércia do poder público que inviabiliza o exercício de direitos e prerrogativas constitucionais?",
+        "options": [
+          "Ação Direta de Inconstitucionalidade por Omissão (ADO)",
+          "Mandado de Injunção",
+          "Arguição de Descumprimento de Preceito Fundamental (ADPF)",
+          "Ação Civil Pública"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "No controle concentrado, a ADO (Art. 103, § 2º) destina-se a combater a omissão inconstitucional do legislador ou administrador. No controle difuso individual, o remédio constitucional cabível é o Mandado de Injunção."
+      },
+      {
+        "question": "Qual das seguintes competências legislativas é classificada como concorrente entre a União, os Estados e o Distrito Federal, nos termos do art. 24 da CF/88?",
+        "options": [
+          "Direito civil, comercial e penal.",
+          "Direito tributário, financeiro, penitenciário, econômico e urbanístico.",
+          "Direito do trabalho, eleitoral e marítimo.",
+          "Direito espacial, aeronáutico e de águas."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "O Art. 24, I da CF/88 prevê que compete à União, aos Estados e ao Distrito Federal legislar concorrentemente sobre direito tributário, financeiro, penitenciário, econômico e urbanístico."
       }
     ],
     "Raciocínio Lógico/RLM": [
@@ -408,6 +826,83 @@
         ],
         "correct_answer_index": 1,
         "explanation": "Se nenhum peixe é mamífero e todos os golfinhos são mamíferos, então nenhum golfinho pode ser peixe."
+      },
+      {
+        "question": "Considere a afirmação verdadeira: 'Todo concurseiro focado é disciplinado'. A partir disso, é correto inferir que:",
+        "options": [
+          "Se uma pessoa é disciplinada, ela é um concurseiro focado.",
+          "Se uma pessoa não é disciplinada, ela não é um concurseiro focado.",
+          "Todas as pessoas disciplinadas são concurseiros focados.",
+          "Nenhum concurseiro focado é disciplinado."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A afirmação 'Todo A é B' pode ser representada pela condicional 'Se é A, então é B'. A contrapositiva equivalente é 'Se não é B, então não é A'. Portanto: 'Se não é disciplinado, então não é concurseiro focado'."
+      },
+      {
+        "question": "Qual é a tabela-verdade resultante da conjunção (p ∧ q) para duas proposições p e q?",
+        "options": [
+          "Será verdadeira somente se ambas as proposições p e q forem verdadeiras.",
+          "Será verdadeira se pelo menos uma das proposições for verdadeira.",
+          "Será falsa somente se ambas as proposições forem falsas.",
+          "Será sempre verdadeira, independentemente do valor lógico das proposições."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A conjunção '∧' (operador lógico E) exige que ambas as proposições componentes sejam simultaneamente verdadeiras para que a proposição composta resultante seja verdadeira."
+      },
+      {
+        "question": "Qual é a negação lógica da proposição categórica 'Todos os cientistas são curiosos'?",
+        "options": [
+          "Nenhum cientista é curioso.",
+          "Todos os cientistas são desinteressados.",
+          "Pelo menos um cientista não é curioso.",
+          "Alguns cientistas são curiosos."
+        ],
+        "correct_answer_index": 2,
+        "explanation": "A negação de uma proposição universal afirmativa ('Todo A é B') é feita com uma proposição particular negativa ('Algum A não é B' ou 'Existe pelo menos um A que não é B')."
+      },
+      {
+        "question": "Se a proposição p é falsa e a proposição q é verdadeira, qual é o valor lógico da condicional (p → q) e da bicondicional (p ↔ q), respectivamente?",
+        "options": [
+          "Falsa e Verdadeira",
+          "Verdadeira e Falsa",
+          "Falsa e Falsa",
+          "Verdadeira e Verdadeira"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A condicional p → q só é falsa se p for V e q for F; logo, sendo p falsa, p → q é Verdadeira. A bicondicional p ↔ q exige que ambas tenham o mesmo valor lógico para ser verdadeira; como p e q têm valores opostos, p ↔ q é Falsa."
+      },
+      {
+        "question": "Três amigas (Ana, Beatriz e Carla) possuem idades distintas. Sabe-se que ou Ana é a mais velha, ou Carla é a mais nova. Sabe-se também que Beatriz é mais velha que Carla. Quem é a mais velha e quem é a mais nova, respectivamente?",
+        "options": [
+          "Ana é a mais velha, Carla é a mais nova.",
+          "Beatriz é a mais velha, Carla é a mais nova.",
+          "Ana é a mais velha, Beatriz é a mais nova.",
+          "Beatriz é a mais velha, Ana é a mais nova."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "Análise lógica das premissas: 'ou Ana é a mais velha, ou Carla é a mais nova' é uma disjunção exclusiva. Se Carla for a mais nova, Ana não pode ser a mais velha. Como Beatriz é mais velha que Carla, e Carla é a mais nova, sobram Ana e Beatriz. Se Carla é a mais nova, então Beatriz ou Ana podem ser a mais velha. Para respeitar a disjunção exclusiva, se Carla é a mais nova (V), Ana não pode ser a mais velha (F), logo Beatriz é a mais velha. A ordenação fica: Beatriz (mais velha) > Ana > Carla (mais nova)."
+      },
+      {
+        "question": "Dada a sequência de números: 2, 5, 10, 17, 26, ... Qual é o próximo termo dessa sequência lógica?",
+        "options": [
+          "35",
+          "37",
+          "40",
+          "45"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "Os termos são gerados pela fórmula n² + 1, onde n inicia em 1: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26. O próximo termo (para n=6) é 6² + 1 = 36 + 1 = 37. Alternativamente, a diferença entre os termos consecutivos aumenta de 2 em 2: +3, +5, +7, +9, logo o próximo acréscimo será +11 (26 + 11 = 37)."
+      },
+      {
+        "question": "A negação lógica de 'Se faz sol, então vou à praia' é equivalente a:",
+        "options": [
+          "Não faz sol e vou à praia.",
+          "Faz sol e não vou à praia.",
+          "Se não faz sol, então não vou à praia.",
+          "Se vou à praia, então faz sol."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A negação de uma condicional p → q é dada por p ∧ ~q (mantém a primeira parte e nega a segunda). Portanto, a negação de 'Se faz sol, então vou à praia' é 'Faz sol e não vou à praia'."
       }
     ]
   }
