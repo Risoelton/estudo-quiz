@@ -26,6 +26,7 @@ const subcategoryIcons = {
   "Matemática": "fa-solid fa-calculator",
   "Ciências": "fa-solid fa-flask",
   "Português": "fa-solid fa-language",
+  "Geografia": "fa-solid fa-earth-americas",
   "Direito Administrativo": "fa-solid fa-building-shield",
   "Direito Constitucional": "fa-solid fa-scale-balanced",
   "Raciocínio Lógico/RLM": "fa-solid fa-brain"
@@ -36,6 +37,7 @@ const subcategoryDescriptions = {
   "Matemática": "Álgebra, geometria, juros compostos e resoluções completas.",
   "Ciências": "Biologia, física, química e conceitos científicos práticos.",
   "Português": "Sintaxe, regência, crase e interpretação de textos modernos.",
+  "Geografia": "Geografia física, geopolítica, climas e mapas do Brasil e do mundo.",
   "Direito Administrativo": "Princípios, atos administrativos, poderes e ética pública.",
   "Direito Constitucional": "Direitos fundamentais, remédios constitucionais e organização do Estado.",
   "Raciocínio Lógico/RLM": "Lógica proposicional, equivalências, silogismos e inferência lógica."
@@ -246,7 +248,26 @@ function startQuiz(mainCategory, subName) {
   state.userSelectedOptionIndex = null;
 
   // Fetch active questions list
-  state.currentQuizQuestions = state.questionsData[mainCategory][subName] || [];
+  let questions = state.questionsData[mainCategory][subName] || [];
+
+  // Remove duplicate questions before displaying (case-insensitive and trimmed comparison to be super robust)
+  const seenQuestions = new Set();
+  questions = questions.filter(q => {
+    const key = q.question.trim().toLowerCase();
+    if (seenQuestions.has(key)) {
+      return false;
+    }
+    seenQuestions.add(key);
+    return true;
+  });
+
+  // Fisher-Yates (Durstenfeld) shuffle algorithm to make questions rodamicas/randomized
+  for (let i = questions.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [questions[i], questions[j]] = [questions[j], questions[i]];
+  }
+
+  state.currentQuizQuestions = questions;
 
   if (state.currentQuizQuestions.length === 0) {
     alert("Nenhuma questão cadastrada para esta subcategoria.");

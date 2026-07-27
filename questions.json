@@ -165,6 +165,116 @@
         ],
         "correct_answer_index": 1,
         "explanation": "Pelas propriedades dos determinantes, se A é uma matriz de ordem n, det(k*A) = kⁿ * det(A). Neste caso, det(3A) = 3² * det(A) = 9 * 5 = 45."
+      },
+      {
+        "question": "Se um capital de R$ 2.000,00 é aplicado a juros simples de 3% ao mês, qual será o montante ao final de 10 meses?",
+        "options": [
+          "R$ 2.600,00",
+          "R$ 2.300,00",
+          "R$ 3.000,00",
+          "R$ 2.800,00"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "No regime de juros simples: J = C * i * t = 2000 * 0,03 * 10 = R$ 600,00. O montante é M = C + J = 2000 + 600 = R$ 2.600,00."
+      },
+      {
+        "question": "Qual é o valor do termo a5 de uma progressão geométrica (PG) cujo primeiro termo a1 é 3 e a razão q é 2?",
+        "options": [
+          "24",
+          "48",
+          "96",
+          "12"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "O termo geral de uma PG é an = a1 * q^(n-1). Para a5, temos a5 = 3 * 2^(5-1) = 3 * 2^4 = 3 * 16 = 48."
+      },
+      {
+        "question": "Um baralho comum possui 52 cartas. Se uma carta for retirada ao acaso, qual é a probabilidade de ela ser um rei?",
+        "options": [
+          "1/13",
+          "1/52",
+          "4/13",
+          "1/4"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O baralho tem 4 reis no total de 52 cartas. A probabilidade é 4/52, que simplificada por 4 é igual a 1/13."
+      },
+      {
+        "question": "Se log(x) + log(y) = log(30) e x = 5, qual é o valor de y (considere log na base 10)?",
+        "options": [
+          "6",
+          "15",
+          "25",
+          "150"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Pelas propriedades dos logaritmos, log(x) + log(y) = log(x * y). Portanto, log(x * y) = log(30) => x * y = 30. Como x = 5, temos 5y = 30 => y = 6."
+      },
+      {
+        "question": "Qual é o valor da soma das raízes da equação do segundo grau 2x² - 12x + 10 = 0?",
+        "options": [
+          "6",
+          "-6",
+          "5",
+          "10"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Pelas relações de Girard, a soma das raízes de uma equação ax² + bx + c = 0 é dada por -b/a. No caso, a soma é -(-12)/2 = 12/2 = 6."
+      },
+      {
+        "question": "Em um triângulo retângulo, se um dos ângulos agudos mede 30° e a hipotenusa mede 10 cm, qual é a medida do cateto oposto a esse ângulo?",
+        "options": [
+          "5 cm",
+          "5√3 cm",
+          "10 cm",
+          "8 cm"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O seno de 30° é cateto oposto / hipotenusa. Sabendo que sen(30°) = 0,5, temos 0,5 = CO / 10 => CO = 5 cm."
+      },
+      {
+        "question": "Quantos anagramas possui a palavra 'ROMA'?",
+        "options": [
+          "24",
+          "12",
+          "6",
+          "48"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A palavra 'ROMA' possui 4 letras distintas. O número de anagramas é dado por P4 = 4! = 4 × 3 × 2 × 1 = 24."
+      },
+      {
+        "question": "Se f(x) = 3x² - 5x + 2, qual é o valor de f(2)?",
+        "options": [
+          "4",
+          "6",
+          "2",
+          "8"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Substituindo x por 2 na função: f(2) = 3(2)² - 5(2) + 2 = 3(4) - 10 + 2 = 12 - 10 + 2 = 4."
+      },
+      {
+        "question": "Determine a distância entre os pontos A(1, 2) e B(4, 6) no plano cartesiano.",
+        "options": [
+          "5",
+          "7",
+          "25",
+          "√7"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A fórmula da distância entre dois pontos é d = √((x2 - x1)² + (y2 - y1)²). Assim, d = √((4 - 1)² + (6 - 2)²) = √(3² + 4²) = √(9 + 16) = √25 = 5."
+      },
+      {
+        "question": "Qual é o volume de um cilindro de altura 10 cm e raio da base igual a 3 cm? (Use a fórmula V = π * r² * h)",
+        "options": [
+          "90π cm³",
+          "30π cm³",
+          "60π cm³",
+          "100π cm³"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O volume do cilindro é V = π * r² * h. Substituindo os valores, V = π * 3² * 10 = π * 9 * 10 = 90π cm³."
       }
     ],
     "Ciências": [
@@ -332,6 +442,116 @@
         ],
         "correct_answer_index": 1,
         "explanation": "A ligação covalente caracteriza-se pelo compartilhamento de elétrons de valência entre átomos (geralmente ametais) para que ambos alcancem a estabilidade eletrônica."
+      },
+      {
+        "question": "Qual é a principal função dos lisossomos em uma célula eucariótica?",
+        "options": [
+          "Realizar a digestão intracelular.",
+          "Sintetizar proteínas.",
+          "Realizar a fotossíntese.",
+          "Armazenar material genético."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Os lisossomos contêm enzimas hidrolíticas que digerem macromoléculas, organelas velhas e partículas vindas do exterior da célula."
+      },
+      {
+        "question": "No vácuo, todas as ondas eletromagnéticas possuem o mesmo valor de qual grandeza?",
+        "options": [
+          "Velocidade de propagação",
+          "Frequência",
+          "Comprimento de onda",
+          "Amplitude"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "No vácuo, todas as ondas eletromagnéticas (luz, micro-ondas, raios X, etc.) propagam-se com a mesma velocidade constante, aproximadamente c = 3 × 10⁸ m/s."
+      },
+      {
+        "question": "Qual dos seguintes elementos químicos é um gás nobre?",
+        "options": [
+          "Hélio",
+          "Nitrogênio",
+          "Oxigênio",
+          "Cloro"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O hélio (He) pertence ao grupo 18 (gases nobres) da Tabela Periódica, caracterizado pela sua baixíssima reatividade química."
+      },
+      {
+        "question": "Qual hormônio é produzido pelas células beta do pâncreas e atua reduzindo a glicose no sangue?",
+        "options": [
+          "Insulina",
+          "Glucagon",
+          "Adrenalina",
+          "Tiroxina"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A insulina facilita a absorção de glicose pelas células do corpo, promovendo a redução da glicemia periférica."
+      },
+      {
+        "question": "Qual princípio físico rege o funcionamento dos óculos de grau por meio do desvio sofrido pela luz ao passar por lentes?",
+        "options": [
+          "Refração",
+          "Reflexão",
+          "Difração",
+          "Polarização"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A refração é o fenômeno que ocorre quando a luz muda de meio de propagação, alterando sua velocidade e sofrendo desvio de trajetória nas lentes."
+      },
+      {
+        "question": "Qual é a principal substância constituinte das paredes celulares dos fungos?",
+        "options": [
+          "Quitina",
+          "Celulose",
+          "Peptidioglicano",
+          "Amido"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Ao contrário das plantas (cuja parede celular é de celulose), os fungos possuem paredes celulares compostas majoritariamente de quitina."
+      },
+      {
+        "question": "Segundo a tabela periódica, qual é o elemento químico mais abundante no universo?",
+        "options": [
+          "Hidrogênio",
+          "Hélio",
+          "Oxigênio",
+          "Carbono"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O hidrogênio (H) é o elemento químico mais simples e abundante do universo, constituindo cerca de 75% da matéria bariônica."
+      },
+      {
+        "question": "O que ocorre no fenômeno físico conhecido como sublimação?",
+        "options": [
+          "Passagem direta do estado sólido para o gasoso.",
+          "Passagem do estado líquido para o gasoso.",
+          "Passagem do estado gasoso para o líquido.",
+          "Passagem do estado sólido para o líquido."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A sublimação é a transição de fase direta do estado sólido para o gasoso, sem passar pelo estado líquido intermediário (como ocorre com o gelo seco)."
+      },
+      {
+        "question": "Qual é a principal função do tecido xilema nas plantas vasculares?",
+        "options": [
+          "Transportar água e sais minerais (seiva bruta) das raízes para as folhas.",
+          "Transportar compostos orgânicos (seiva elaborada) das folhas para o resto da planta.",
+          "Proteger a planta contra a perda excessiva de água.",
+          "Realizar a fotossíntese nas folhas."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O xilema (ou lenho) é responsável pelo transporte unidirecional de seiva bruta (água e minerais) no sentido ascendente das raízes para as folhas."
+      },
+      {
+        "question": "Quem é considerado o 'pai da genética' pelos seus estudos pioneiros com cruzamento de ervilhas?",
+        "options": [
+          "Gregor Mendel",
+          "Charles Darwin",
+          "Louis Pasteur",
+          "Jean-Baptiste Lamarck"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Gregor Mendel descobriu as leis básicas da hereditariedade (Leis de Mendel) por meio de experimentos estatísticos com ervilhas Pisum sativum."
       }
     ],
     "Português": [
@@ -499,6 +719,283 @@
         ],
         "correct_answer_index": 2,
         "explanation": "Quando o verbo está na 3ª pessoa do plural e não se refere a nenhum termo expresso anteriormente no texto ou identificável pelo contexto, o sujeito é classificado como indeterminado."
+      },
+      {
+        "question": "Assinale a frase que contém uma incorreção no uso do pronome relativo 'cujo'.",
+        "options": [
+          "Este é o artista cujo o quadro foi premiado.",
+          "Este é o artista cujo quadro foi premiado.",
+          "A casa cujas janelas são verdes precisa de pintura.",
+          "O homem de cuja opinião discordo não veio hoje."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O pronome 'cujo' não aceita a presença de artigo subsequente ('cujo o' ou 'cujo a' estão errados). O correto é 'cujo quadro'."
+      },
+      {
+        "question": "Qual é o plural correto do substantivo composto 'pão-de-ló'?",
+        "options": [
+          "pães-de-ló",
+          "pães-de-lós",
+          "pão-de-lós",
+          "pães-dos-lós"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Em substantivos compostos cujos elementos são unidos por preposição, apenas o primeiro termo varia no plural: pães-de-ló."
+      },
+      {
+        "question": "Em 'Ela agiu com extrema rapidez', qual é a classificação do termo 'com extrema rapidez'?",
+        "options": [
+          "Adjunto adverbial de modo",
+          "Objeto indireto",
+          "Complemento nominal",
+          "Adjunto adnominal"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O termo 'com extrema rapidez' indica a maneira/modo como a ação do verbo foi executada. Portanto, é um adjunto adverbial de modo."
+      },
+      {
+        "question": "Indique a alternativa que apresenta o uso incorreto da crase.",
+        "options": [
+          "Nós fomos à pé até o supermercado.",
+          "Entreguei o prêmio à vencedora.",
+          "Às duas horas da tarde iniciaremos a reunião.",
+          "Refiro-me à mesma pessoa de ontem."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Não ocorre crase antes de termos masculinos ou palavras de natureza masculina, como o substantivo masculino 'pé' na locução 'a pé'."
+      },
+      {
+        "question": "Assinale a alternativa que apresenta uma conjunção coordenativa adversativa.",
+        "options": [
+          "Contudo",
+          "Portanto",
+          "Porque",
+          "Pois"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "'Contudo' (assim como mas, porém, todavia, entretanto) é uma conjunção coordenativa adversativa, que exprime oposição ou contraste."
+      },
+      {
+        "question": "Na frase 'Sei que você virá', a palavra 'que' funciona como:",
+        "options": [
+          "Conjunção subordinada integrante",
+          "Pronome relativo",
+          "Conjunção explicativa",
+          "Preposição"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O 'que' é uma conjunção integrante pois introduz uma oração subordinada substantiva objetiva direta ('que você virá' equivale a 'isto')."
+      },
+      {
+        "question": "Qual o sujeito da frase: 'Vende-se esta linda casa à beira-mar'?",
+        "options": [
+          "esta linda casa",
+          "Indeterminado",
+          "Inexistente",
+          "esta linda casa à beira-mar"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "A frase está na voz passiva sintética (equivalente a 'Esta linda casa à beira-mar é vendida'). O sujeito paciente é 'esta linda casa à beira-mar'."
+      },
+      {
+        "question": "Qual das seguintes palavras é grafada corretamente com 'x'?",
+        "options": [
+          "Enxada",
+          "Encharcar",
+          "Chuchu",
+          "Chicote"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Após a sílaba inicial 'en-', geralmente grafamos com 'x' (como enxada, enxame, enxofre), exceto quando a palavra deriva de outra grafada com 'ch' (como encharcar, derivado de charco)."
+      },
+      {
+        "question": "Identifique a oração com desvio na concordância nominal.",
+        "options": [
+          "Ela mesma fez o trabalho, embora estivesse meio cansada.",
+          "Ela mesmo fez o trabalho, embora estivesse meia cansada.",
+          "Seguem anexos os documentos solicitados.",
+          "As portas estão abertas para todos."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "'Mesmo' (quando concorda com 'ela') deve ir para o feminino ('ela mesma'). 'Meio' funciona como advérbio modificando o adjetivo 'cansada', sendo invariável ('meio cansada', e não 'meia cansada')."
+      },
+      {
+        "question": "Na oração 'O tempo voa', qual é a transitividade do verbo 'voar'?",
+        "options": [
+          "Intransitivo",
+          "Transitivo Direto",
+          "Transitivo Indireto",
+          "De Ligação"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O verbo 'voar' possui sentido completo nesta oração, não exigindo complementos (objetos) para fazer sentido, sendo, portanto, intransitivo."
+      }
+    ],
+    "Geografia": [
+      {
+        "question": "Qual é a capital da Austrália?",
+        "options": [
+          "Camberra",
+          "Sydney",
+          "Melbourne",
+          "Brisbane"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A capital da Austrália é Camberra, planejada e fundada em 1913 para mediar a rivalidade histórica entre as cidades de Sydney e Melbourne."
+      },
+      {
+        "question": "Qual é o rio mais extenso do mundo?",
+        "options": [
+          "Rio Amazonas",
+          "Rio Nilo",
+          "Rio Mississippi",
+          "Rio Yangtze"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Estudos geográficos modernos e expedições confirmaram que o Rio Amazonas (com nascente no Peru e foz no Brasil) é o mais extenso e volumoso do mundo, superando o Rio Nilo."
+      },
+      {
+        "question": "Qual é a maior floresta tropical do mundo?",
+        "options": [
+          "Floresta Amazônica",
+          "Floresta do Congo",
+          "Floresta de Taiga",
+          "Floresta de Bornéu"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A Floresta Amazônica é a maior floresta tropical do planeta, abrangendo territórios de nove países da América do Sul, com a maior parte situada no Brasil."
+      },
+      {
+        "question": "Qual é a principal linha de latitude que divide o planeta Terra nos hemisférios Norte e Sul?",
+        "options": [
+          "Linha do Equador",
+          "Meridiano de Greenwich",
+          "Trópico de Câncer",
+          "Trópico de Capricórnio"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A Linha do Equador é o paralelo de latitude 0° que divide geometricamente o planeta em hemisfério Norte (Setentrional) e hemisfério Sul (Meridional)."
+      },
+      {
+        "question": "Em qual continente está localizado o Deserto do Saara, o maior deserto quente do mundo?",
+        "options": [
+          "África",
+          "Ásia",
+          "Oceania",
+          "América do Sul"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Deserto do Saara está localizado no norte do continente africano, cobrindo uma área de mais de 9 milhões de quilômetros quadrados."
+      },
+      {
+        "question": "Qual é a montanha mais alta da Terra em relação ao nível do mar?",
+        "options": [
+          "Monte Everest",
+          "K2",
+          "Monte Kilimanjaro",
+          "Monte Aconcágua"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Monte Everest, situado na cordilheira do Himalaia (na fronteira entre o Nepal e a China/Tibet), é a montanha de maior altitude do planeta, com 8.848 metros."
+      },
+      {
+        "question": "O canal navegável artificial que liga o Oceano Atlântico ao Oceano Pacífico, facilitando o comércio marítimo internacional, é o:",
+        "options": [
+          "Canal do Panamá",
+          "Canal de Suez",
+          "Canal de Corinto",
+          "Canal de Kiel"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Canal do Panamá corta o istmo do Panamá na América Central, conectando diretamente os oceanos Atlântico e Pacífico de forma estratégica para o comércio global."
+      },
+      {
+        "question": "Qual país possui a maior extensão territorial do planeta?",
+        "options": [
+          "Rússia",
+          "Canadá",
+          "China",
+          "Estados Unidos"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A Rússia é o maior país do mundo em área terrestre, estendendo-se por mais de 17 milhões de quilômetros quadrados e abrangendo partes da Europa e da Ásia."
+      },
+      {
+        "question": "Qual fenômeno climático é caracterizado pelo resfriamento anômalo das águas superficiais do Oceano Pacífico Equatorial?",
+        "options": [
+          "La Niña",
+          "El Niño",
+          "Monções",
+          "Ciclone Extratropical"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O fenômeno La Niña caracteriza-se pelo resfriamento anômalo das águas do Pacífico Equatorial, alterando os padrões de chuva e temperatura globalmente (ao contrário do El Niño, que causa o aquecimento)."
+      },
+      {
+        "question": "Qual é o menor país do mundo em extensão territorial e população?",
+        "options": [
+          "Vaticano",
+          "Mônaco",
+          "San Marino",
+          "Liechtenstein"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Estado da Cidade do Vaticano é um enclave murado dentro da cidade de Roma, na Itália, sendo reconhecido como o menor Estado soberano do mundo."
+      },
+      {
+        "question": "Qual é o principal bioma brasileiro caracterizado por vegetação arbustiva retorcida, solo ácido e clima tropical sazonal (com estação seca bem definida)?",
+        "options": [
+          "Cerrado",
+          "Caatinga",
+          "Mata Atlântica",
+          "Pantanal"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Cerrado é a savana brasileira, concentrado no Planalto Central, com árvores de casca grossa e troncos tortuosos, adaptadas à alternância sazonal de seca e chuva."
+      },
+      {
+        "question": "Qual oceano possui a maior área e profundidade do planeta?",
+        "options": [
+          "Oceano Pacífico",
+          "Oceano Atlântico",
+          "Oceano Índico",
+          "Oceano Glacial Ártico"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Oceano Pacífico é o maior e mais profundo corpo hídrico da Terra, contendo a Depressão das Marianas, o ponto mais profundo conhecido do relevo submarino."
+      },
+      {
+        "question": "Qual país europeu é famoso por sua geografia repleta de fiordes (vales rochosos inundados pelo mar)?",
+        "options": [
+          "Noruega",
+          "Itália",
+          "Espanha",
+          "Grécia"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A Noruega possui uma costa atlântica recortada por milhares de fiordes monumentais esculpidos pelo recuo de antigos glaciares na Idade do Gelo."
+      },
+      {
+        "question": "Qual é a capital oficial do Japão?",
+        "options": [
+          "Tóquio",
+          "Quioto",
+          "Osaka",
+          "Hiroshima"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Tóquio é a capital política e econômica do Japão, constituindo também a maior área metropolitana do mundo."
+      },
+      {
+        "question": "O arquipélago britânico das Ilhas Malvinas (Falklands), pivô de um conflito armado em 1982, é reivindicado por qual país sul-americano?",
+        "options": [
+          "Argentina",
+          "Chile",
+          "Brasil",
+          "Uruguai"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A Argentina reivindica historicamente a soberania sobre as Ilhas Malvinas (Falklands), território ultramarino britânico situado no Atlântico Sul, o que gerou a Guerra das Malvinas em 1982."
       }
     ]
   },
@@ -635,6 +1132,116 @@
         ],
         "correct_answer_index": 1,
         "explanation": "As autarquias possuem personalidade jurídica de direito público e são criadas diretamente por lei. Já as Sociedades de Economia Mista e Empresas Públicas possuem personalidade jurídica de direito privado e sua criação é autorizada por lei."
+      },
+      {
+        "question": "Qual dos seguintes atos administrativos é classificado como vinculado (no qual a Administração Pública não possui margem de escolha de conveniência)?",
+        "options": [
+          "Licença para construir",
+          "Autorização de porte de arma",
+          "Permissão de uso de bem público",
+          "Nomeação para cargo em comissão"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A licença é um ato administrativo unilateral e vinculado, pelo qual a Administração faculta a prática de atividade a quem preenche os requisitos legais."
+      },
+      {
+        "question": "O princípio da moralidade administrativa exige que o agente público observe:",
+        "options": [
+          "A legalidade formal unida a padrões éticos de boa-fé, decoro e honestidade.",
+          "Apenas a lei escrita, independentemente de valores éticos ou sociais.",
+          "Exclusivamente a redução de despesas orçamentárias.",
+          "A publicidade ampla de atos de conteúdo estritamente pessoal."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O princípio da moralidade administrativa impõe que a atividade estatal seja pautada não apenas pela legalidade estrita, mas também por preceitos éticos, honestidade e boa-fé."
+      },
+      {
+        "question": "A prerrogativa da Administração Pública de restringir e condicionar o exercício de direitos e atividades individuais em prol do interesse público é o:",
+        "options": [
+          "Poder de Polícia",
+          "Poder Disciplinar",
+          "Poder Hierárquico",
+          "Poder Regulamentar"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Poder de Polícia é a atividade da administração pública que limita ou disciplina direito, interesse ou liberdade, regulando a prática de ato ou abstenção de fato, em razão de interesse público."
+      },
+      {
+        "question": "A delegação de competência administrativa é:",
+        "options": [
+          "Um ato discricionário e essencialmente revogável a qualquer tempo.",
+          "Um ato irrevogável e de caráter permanente.",
+          "Privativa entre órgãos que possuam relação de subordinação hierárquica direta.",
+          "Vedada por completo na Administração Direta federal."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "De acordo com a Lei nº 9.784/1999, a delegação de competência e sua revogação são atos discricionários, sendo a delegação revogável a qualquer tempo pela autoridade delegante."
+      },
+      {
+        "question": "Qual é o prazo decadencial para que a Administração Pública anule os atos administrativos de que decorram efeitos favoráveis para os destinatários, de boa-fé, salvo comprovada má-fé?",
+        "options": [
+          "5 anos",
+          "2 anos",
+          "10 anos",
+          "3 anos"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O art. 54 da Lei nº 9.784/1999 estabelece que o direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em 5 anos, contados da data em que foram praticados."
+      },
+      {
+        "question": "Os bens públicos de uso comum do povo, como praias e praças, são caracterizados por:",
+        "options": [
+          "Inalienabilidade relativa, imprescritibilidade e impenhorabilidade.",
+          "Alienabilidade livre, penhorabilidade e possibilidade de usucapião.",
+          "Serem de propriedade exclusiva de concessionárias privadas de serviço público.",
+          "Não estarem sujeitos a qualquer controle da administração municipal."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Os bens públicos em geral são imprescritíveis (não sofrem usucapião) e impenhoráveis. Os bens de uso comum do povo e os de uso especial são inalienáveis enquanto conservarem a sua qualificação legal."
+      },
+      {
+        "question": "A extinção de ato administrativo ilegal, operada pela própria Administração Pública com efeitos retroativos (ex tunc), denomina-se:",
+        "options": [
+          "Anulação (ou Invalidação)",
+          "Revogação",
+          "Caducidade",
+          "Cassação"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A anulação é o desfazimento de ato administrativo ilegal, podendo ser realizada pela própria Administração (autotutela) ou pelo Judiciário, produzindo efeitos retroativos (ex tunc)."
+      },
+      {
+        "question": "Qual das seguintes opções apresenta uma característica exclusiva da autarquia, como entidade da Administração Indireta?",
+        "options": [
+          "Criação direta por meio de lei específica e personalidade jurídica de direito público.",
+          "Personalidade jurídica de direito privado e exploração de atividade econômica comercial.",
+          "Criação exclusiva por decreto e dispensa total de licitações.",
+          "Submissão hierárquica integral ao Ministério supervisor, sem autonomia administrativa."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A autarquia é um serviço autônomo, criado diretamente por lei específica, com personalidade jurídica de direito público, patrimônio e receita próprios, para executar atividades típicas da Administração Pública."
+      },
+      {
+        "question": "A improbidade administrativa que importa em enriquecimento ilícito do agente público acarreta, dentre outras sanções previstas na Lei nº 8.429/1992:",
+        "options": [
+          "Perda dos bens ou valores acrescidos ilicitamente ao patrimônio e suspensão dos direitos políticos.",
+          "Apenas multa civil de caráter educativo, sem perda do cargo ou de direitos políticos.",
+          "Prisão em regime fechado imediata por decisão da autoridade administrativa supervisora.",
+          "Demissão voluntária remunerada proporcional."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A improbidade administrativa sujeita o agente público a sanções de natureza civil e política constantes da Lei nº 8.429/1992 (LIA), incluindo a perda de bens acrescidos ilicitamente e a suspensão de direitos políticos."
+      },
+      {
+        "question": "O princípio da publicidade exige que a Administração Pública divulgue seus atos, ressalvadas as hipóteses de:",
+        "options": [
+          "Segurança da sociedade e do Estado, além da defesa da intimidade dos cidadãos.",
+          "Interesse político circunstancial de governantes da esfera federal ou estadual.",
+          "Conveniência orçamentária temporária do órgão público solicitante.",
+          "Decisão unânime de conselhos de servidores de autarquias corporativas."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A publicidade é a regra geral da atividade administrativa. No entanto, o próprio texto constitucional ressalva o sigilo de informações cujo sigilo seja imprescindível à segurança da sociedade e do Estado, ou que violem o direito constitucional à intimidade e à vida privada."
       }
     ],
     "Direito Constitucional": [
@@ -769,6 +1376,116 @@
         ],
         "correct_answer_index": 1,
         "explanation": "O Art. 24, I da CF/88 prevê que compete à União, aos Estados e ao Distrito Federal legislar concorrentemente sobre direito tributário, financeiro, penitenciário, econômico e urbanístico."
+      },
+      {
+        "question": "A extradição de brasileiro nato pelo Governo brasileiro para responder por crimes comuns no exterior:",
+        "options": [
+          "É expressamente vedada pela Constituição Federal de 1988 sob qualquer hipótese.",
+          "É permitida em caso de crime comum praticado antes da naturalização ou de tráfico ilícito de entorpecentes.",
+          "É cabível apenas se autorizada por votação unânime do Supremo Tribunal Federal.",
+          "É regulada por tratado bilateral sem restrições de nacionalidade originária."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Art. 5º, LI, da CF/88 estabelece que nenhum brasileiro será extraditado, salvo o naturalizado, em caso de crime comum, praticado antes da naturalização, ou de comprovado envolvimento em tráfico ilícito de entorpecentes. Logo, o brasileiro nato nunca será extraditado."
+      },
+      {
+        "question": "Qual é o órgão responsável pelo controle externo do Poder Executivo Federal, auxiliando o Congresso Nacional na fiscalização contábil, financeira e orçamentária?",
+        "options": [
+          "Tribunal de Contas da União (TCU)",
+          "Supremo Tribunal Federal (STF)",
+          "Controladoria-Geral da União (CGU)",
+          "Conselho Nacional de Justiça (CNJ)"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Tribunal de Contas da União (TCU) é o órgão constitucional que assessora o Congresso Nacional no controle externo e fiscalização da gestão dos recursos federais."
+      },
+      {
+        "question": "Os tratados e convenções internacionais sobre direitos humanos que forem aprovados, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros, serão equivalentes a:",
+        "options": [
+          "Emendas Constitucionais",
+          "Leis Complementares",
+          "Leis Ordinárias",
+          "Decretos Legislativos"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Conforme o Art. 5º, § 3º da CF/88, introduzido pela EC 45/2004, esses tratados e convenções possuem status equivalente ao de Emendas Constitucionais dentro do ordenamento jurídico brasileiro."
+      },
+      {
+        "question": "Qual das seguintes opções apresenta um princípio fundamental da República Federativa do Brasil expressamente previsto no art. 1º da CF/88?",
+        "options": [
+          "A dignidade da pessoa humana.",
+          "A erradicação da pobreza.",
+          "A autodeterminação dos povos.",
+          "O desenvolvimento nacional."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Art. 1º, III da CF/88 elenca 'a dignidade da pessoa humana' como um dos fundamentos da República Federativa do Brasil. As demais alternativas são objetivos fundamentais (Art. 3º) ou princípios de relações internacionais (Art. 4º)."
+      },
+      {
+        "question": "São considerados direitos sociais expressamente previstos no art. 6º da Constituição Federal de 1988, exceto:",
+        "options": [
+          "O direito de propriedade individual irrestrita.",
+          "A educação, a saúde e a alimentação.",
+          "O trabalho, a moradia e o transporte.",
+          "A segurança, a previdência social e a proteção à maternidade."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O direito de propriedade é um direito individual civil previsto no art. 5º da CF/88. Os direitos sociais listados no art. 6º incluem educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência social, proteção à maternidade e à infância, e assistência aos desamparados."
+      },
+      {
+        "question": "A quem compete privativamente legislar sobre Direito Civil, Comercial, Penal, Processual, Eleitoral, Agrário, Marítimo, Aeronáutico, Espacial e do Trabalho?",
+        "options": [
+          "À União",
+          "Aos Estados-Membros concorrentemente",
+          "Aos Municípios",
+          "Ao Distrito Federal de forma exclusiva"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Art. 22, I da CF/88 determina que compete privativamente à União legislar sobre os ramos do direito civil, comercial, penal, processual, eleitoral, agrário, marítimo, aeronáutico, espacial e do trabalho."
+      },
+      {
+        "question": "A iniciativa popular de projetos de lei de interesse nacional exige a assinatura de, no mínimo, qual percentual do eleitorado nacional, distribuído por pelo menos cinco Estados?",
+        "options": [
+          "1% do eleitorado nacional",
+          "5% do eleitorado nacional",
+          "2% do eleitorado nacional",
+          "0,5% do eleitorado nacional"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "De acordo com o Art. 61, § 2º da CF/88, a iniciativa popular de projeto de lei exige a assinatura de, no mínimo, 1% do eleitorado nacional, distribuído por pelo menos cinco Estados, com não menos de três décimos por cento dos eleitores de cada um deles."
+      },
+      {
+        "question": "O Supremo Tribunal Federal (STF) é composto por quantos Ministros, recrutados entre cidadãos com mais de 35 e menos de 75 anos de idade, de notável saber jurídico e reputação ilibada?",
+        "options": [
+          "11 Ministros",
+          "9 Ministros",
+          "15 Ministros",
+          "33 Ministros"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Conforme o Art. 101 da CF/88, o Supremo Tribunal Federal compõe-se de 11 Ministros (referenciados pelo mnemônico 'Somos Todos 11')."
+      },
+      {
+        "question": "Qual remédio constitucional é cabível para retificar dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrative?",
+        "options": [
+          "Habeas Data",
+          "Mandado de Segurança",
+          "Ação Civil Pública",
+          "Habeas Corpus"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Habeas Data (Art. 5º, LXXII, 'b') é garantido para a retificação de dados pessoais constantes de bancos de dados governamentais ou de caráter público quando o interessado não preferir fazê-lo de outra forma."
+      },
+      {
+        "question": "Qual das seguintes ações constitucionais de controle concentrado de constitucionalidade pode ser proposta por partido político com representação no Congresso Nacional?",
+        "options": [
+          "Ação Direta de Inconstitucionalidade (ADI)",
+          "Ação Popular",
+          "Mandado de Injunção Coletivo",
+          "Ação Civil de Improbidade"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Os partidos políticos com representação no Congresso Nacional constam expressamente no rol de legitimados ativos universais para propor ADI, ADC e ADPF junto ao Supremo Tribunal Federal, conforme o Art. 103, VIII da CF/88."
       }
     ],
     "Raciocínio Lógico/RLM": [
@@ -903,6 +1620,116 @@
         ],
         "correct_answer_index": 1,
         "explanation": "A negação de uma condicional p → q é dada por p ∧ ~q (mantém a primeira parte e nega a segunda). Portanto, a negação de 'Se faz sol, então vou à praia' é 'Faz sol e não vou à praia'."
+      },
+      {
+        "question": "Qual é a negação lógica da proposição composta 'P ou Q'?",
+        "options": [
+          "Não P e Não Q",
+          "Não P ou Não Q",
+          "Se não P, então não Q",
+          "Não P e Q"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Pela Primeira Lei de De Morgan, a negação de uma disjunção (P v Q) é a conjunção das negações: ~(P v Q) ≡ ~P ∧ ~Q ('Não P e Não Q')."
+      },
+      {
+        "question": "Se a proposição 'Se o candidato estuda, então ele passa' é verdadeira, qual outra afirmação é obrigatoriamente verdadeira?",
+        "options": [
+          "Se o candidato não passa, então ele não estudou.",
+          "Se o candidato passa, então ele estudou.",
+          "Se o candidato não estuda, então ele não passa.",
+          "Se o candidato estuda, então ele não passa."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A condicional (P -> Q) é equivalente à sua contrapositiva (~Q -> ~P). Portanto, 'Se o candidato não passa, então ele não estudou' é logicamente equivalente."
+      },
+      {
+        "question": "Em uma sala com 5 pessoas, se cada pessoa cumprimenta todas as outras uma única vez com um aperto de mão, quantos apertos de mão ocorrerão no total?",
+        "options": [
+          "10",
+          "20",
+          "5",
+          "15"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Trata-se de uma combinação simples de 5 elementos tomados 2 a 2: C(5,2) = (5 * 4) / 2 = 10 apertos de mão."
+      },
+      {
+        "question": "Se hoje é terça-feira, daqui a exatamente 50 dias será que dia da semana?",
+        "options": [
+          "Quarta-feira",
+          "Quinta-feira",
+          "Terça-feira",
+          "Sexta-feira"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Como a semana se repete a cada 7 dias, dividimos 50 por 7: 50 = 7 * 7 + 1. O resto é 1. Portanto, avançamos 1 dia a partir de terça-feira, o que resulta em quarta-feira."
+      },
+      {
+        "question": "A negação da proposição 'Nenhum homem é imortal' equivale a qual proposição?",
+        "options": [
+          "Pelo menos um homem é imortal.",
+          "Todos os homens são imortais.",
+          "Alguns homens não são imortais.",
+          "Nenhum homem é mortal."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A negação de 'Nenhum A é B' (proposição categórica universal negativa) é 'Algum A é B' ou 'Existe pelo menos um A que é B'."
+      },
+      {
+        "question": "Sejam as premissas: 'Se chove, o chão fica molhado' e 'O chão não está molhado'. Qual é a conclusão lógica correta?",
+        "options": [
+          "Não choveu.",
+          "Choveu.",
+          "Pode ter chovido ou não.",
+          "O chão está seco porque ventou."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Pela regra de inferência do Modus Tollens (se P -> Q e ~Q, conclui-se ~P), deduzimos logicamente que 'Não choveu'."
+      },
+      {
+        "question": "Se p é verdadeiro e q é falso, qual o valor lógico de (p ∨ q) e (p ∧ q), respectivamente?",
+        "options": [
+          "Verdadeiro e Falso",
+          "Falso e Verdadeiro",
+          "Verdadeiro e Verdadeiro",
+          "Falso e Falso"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A disjunção (p ∨ q) é verdadeira se pelo menos uma proposição for verdadeira (V ∨ F = V). A conjunção (p ∧ q) exige que ambas sejam verdadeiras (V ∧ F = F)."
+      },
+      {
+        "question": "Qual é o próximo termo na sequência numérica lógica: 1, 4, 9, 16, 25, ...?",
+        "options": [
+          "36",
+          "30",
+          "49",
+          "35"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A sequência é formada pelos quadrados perfeitos dos números naturais maiores que zero: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25. O próximo termo é 6² = 36."
+      },
+      {
+        "question": "Considere a proposição: 'Se Júlio é médico, então ele trabalha no hospital'. Uma afirmação logicamente equivalente a essa é:",
+        "options": [
+          "Júlio não é médico ou trabalha no hospital.",
+          "Se Júlio trabalha no hospital, ele é médico.",
+          "Júlio é médico e não trabalha no hospital.",
+          "Júlio não é médico e não trabalha no hospital."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Uma das equivalências lógicas da condicional (P -> Q) é (~P v Q), ou seja, nega-se a primeira ou mantém-se a segunda. Logo: 'Júlio não é médico ou trabalha no hospital'."
+      },
+      {
+        "question": "Se todo professor é inteligente e alguns inteligentes são ricos, podemos concluir logicamente que:",
+        "options": [
+          "Não se pode afirmar com certeza que algum professor é rico.",
+          "Todo inteligente é professor.",
+          "Nenhum professor é rico.",
+          "Algum professor é rico."
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O conjunto dos inteligentes possui interseção com o dos ricos. No entanto, essa interseção pode não conter nenhum professor (já que o conjunto dos professores está apenas contido no dos inteligentes). Portanto, não se pode concluir com certeza que algum professor seja rico."
       }
     ]
   }
