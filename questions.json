@@ -33,6 +33,50 @@
         ],
         "correct_answer_index": 1,
         "explanation": "No regime de juros compostos, a fórmula é M = C * (1 + i)^t. M = 1000 * (1.10)² = 1000 * 1.21 = R$ 1.210,00."
+      },
+      {
+        "question": "Qual é o valor da média aritmética dos números 4, 8 e 12?",
+        "options": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A média aritmética é a soma dos valores dividida pela quantidade: (4+8+12)/3 = 24/3 = 8."
+      },
+      {
+        "question": "Qual é a área de um círculo de raio 5 cm?",
+        "options": [
+          "25π cm²",
+          "50π cm²",
+          "75π cm²",
+          "100π cm²"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A fórmula da área do círculo é A = πr². Para r = 5, temos A = π × 25 = 25π cm²."
+      },
+      {
+        "question": "Qual é o valor da expressão (5 × 4) − (3²)?",
+        "options": [
+          "11",
+          "13",
+          "14",
+          "17"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "5 × 4 = 20 e 3² = 9. Portanto, 20 − 9 = 11."
+      },
+      {
+        "question": "Qual é a probabilidade de sair um número par em um dado comum de seis faces?",
+        "options": [
+          "1/6",
+          "2/6",
+          "3/6",
+          "4/6"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "O dado tem três números pares (2, 4 e 6). Logo, a probabilidade é 3/6 = 1/2."
       }
     ],
     "Ciências": [
@@ -68,6 +112,50 @@
         ],
         "correct_answer_index": 1,
         "explanation": "As hemácias contêm hemoglobina, uma proteína rica em ferro que se liga ao oxigênio nos pulmões e o transporta para todas as células do corpo."
+      },
+      {
+        "question": "Qual é o órgão responsável por bombear sangue em todo o corpo humano?",
+        "options": [
+          "Pulmões",
+          "Coração",
+          "Fígado",
+          "Rins"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "O coração é o órgão responsável por bombear o sangue para todo o corpo através da circulação sanguínea."
+      },
+      {
+        "question": "Qual é a principal fonte de energia para os seres vivos?",
+        "options": [
+          "Proteínas",
+          "Carboidratos",
+          "Lipídios",
+          "Vitaminas"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "Os carboidratos são a principal fonte de energia para os seres vivos, pois são rapidamente metabolizados em glicose."
+      },
+      {
+        "question": "Qual é a função principal dos pulmões no corpo humano?",
+        "options": [
+          "Produzir energia",
+          "Filtrar impurezas do sangue",
+          "Realizar trocas gasosas",
+          "Bombear sangue"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "Os pulmões são responsáveis pelas trocas gasosas: absorvem oxigênio e eliminam dióxido de carbono."
+      },
+      {
+        "question": "Qual é a unidade de medida da força no Sistema Internacional?",
+        "options": [
+          "Joule",
+          "Newton",
+          "Watt",
+          "Pascal"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A unidade de força no SI é o Newton (N), equivalente a kg·m/s²."
       }
     ],
     "Português": [
@@ -103,6 +191,50 @@
         ],
         "correct_answer_index": 3,
         "explanation": "O verbo 'assistir' no sentido de prestar assistência/ajudar é transitivo direto, portanto 'assistiu o paciente' está correto de acordo com a norma-padrão."
+      },
+      {
+        "question": "Qual é a função do sujeito na oração?",
+        "options": [
+          "Indicar quem pratica ou sofre a ação",
+          "Indicar o tempo verbal",
+          "Indicar a relação entre orações",
+          "Indicar o objeto direto"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O sujeito é o termo da oração que indica quem pratica ou sofre a ação expressa pelo verbo."
+      },
+      {
+        "question": "Qual é a figura de linguagem presente em: 'O vento cantava entre as árvores'?",
+        "options": [
+          "Metáfora",
+          "Personificação",
+          "Hipérbole",
+          "Ironia"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A personificação atribui características humanas a elementos não humanos, como o vento 'cantar'."
+      },
+      {
+        "question": "Qual é a oração subordinada adverbial na frase: 'Estudei bastante porque queria passar no concurso'?",
+        "options": [
+          "Estudei bastante",
+          "Porque queria passar no concurso",
+          "Queria passar no concurso",
+          "Estudei bastante porque"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A oração 'porque queria passar no concurso' é subordinada adverbial causal, indicando motivo."
+      },
+      {
+        "question": "Qual é a figura de linguagem em: 'Estou morrendo de fome'?",
+        "options": [
+          "Hipérbole",
+          "Metáfora",
+          "Ironia",
+          "Personificação"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "A hipérbole é o exagero intencional, como 'morrendo de fome'."
       }
     ]
   },
@@ -140,6 +272,28 @@
         ],
         "correct_answer_index": 2,
         "explanation": "O Poder Disciplinar é a prerrogativa que a Administração Pública possui para apurar infrações e aplicar penalidades aos servidores públicos e demais pessoas sujeitas à disciplina interna da Administração."
+      },
+      {
+        "question": "Qual princípio da Administração Pública exige que os atos sejam praticados visando exclusivamente ao interesse coletivo?",
+        "options": [
+          "Legalidade",
+          "Impessoalidade",
+          "Moralidade",
+          "Eficiência"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "O princípio da impessoalidade garante que a Administração atue em prol do interesse público, sem favorecimentos pessoais."
+      },
+      {
+        "question": "Qual é o poder da Administração que permite distribuir funções entre órgãos e agentes?",
+        "options": [
+          "Poder Hierárquico",
+          "Poder Regulamentar",
+          "Poder Disciplinar",
+          "Poder de Polícia"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O poder hierárquico permite organizar e distribuir funções entre órgãos e agentes da Administração."
       }
     ],
     "Direito Constitucional": [
@@ -175,6 +329,28 @@
         ],
         "correct_answer_index": 1,
         "explanation": "A Constituição pode ser emendada mediante proposta de, no mínimo, um terço dos membros da Câmara dos Deputados ou do Senado Federal, do Presidente da República, ou de mais da metade das Assembleias Legislativas das unidades da Federação."
+      },
+      {
+        "question": "Qual é o artigo da Constituição que trata do direito ao meio ambiente ecologicamente equilibrado?",
+        "options": [
+          "Artigo 196",
+          "Artigo 205",
+          "Artigo 225",
+          "Artigo 5º"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "O Artigo 225 da Constituição Federal assegura a todos o direito ao meio ambiente ecologicamente equilibrado."
+      },
+      {
+        "question": "Qual é o artigo da Constituição que trata da liberdade de associação?",
+        "options": [
+          "Artigo 5º, XVII",
+          "Artigo 7º, II",
+          "Artigo 1º, III",
+          "Artigo 225"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "O Artigo 5º, XVII, da Constituição Federal assegura a liberdade de associação para fins lícitos."
       }
     ],
     "Raciocínio Lógico/RLM": [
@@ -210,6 +386,28 @@
         ],
         "correct_answer_index": 2,
         "explanation": "Por silogismo hipotético, se a classe dos cachorros está contida na classe dos mamíferos, e esta última na dos vertebrados, então a classe dos cachorros está totalmente contida na dos vertebrados."
+      },
+      {
+        "question": "Se 'Alguns estudantes são atletas' e 'Todos os atletas são disciplinados', podemos concluir que:",
+        "options": [
+          "Todos os estudantes são disciplinados.",
+          "Alguns estudantes são disciplinados.",
+          "Nenhum estudante é disciplinado.",
+          "Todos os estudantes são atletas."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "Se alguns estudantes são atletas e todos os atletas são disciplinados, então pelo menos alguns estudantes são disciplinados."
+      },
+      {
+        "question": "Se 'Nenhum peixe é mamífero' e 'Todos os golfinhos são mamíferos', podemos concluir que:",
+        "options": [
+          "Todos os golfinhos são peixes.",
+          "Nenhum golfinho é peixe.",
+          "Alguns golfinhos são peixes.",
+          "Todos os peixes são golfinhos."
+        ],
+        "correct_answer_index": 1,
+        "explanation": "Se nenhum peixe é mamífero e todos os golfinhos são mamíferos, então nenhum golfinho pode ser peixe."
       }
     ]
   }
